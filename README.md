@@ -44,11 +44,11 @@ Environment Variables
 Create a .env file in the backend directory and add the following environment variables
 
 
-MONGO_URI=your_mongo_db_connection_string
+-MONGO_URI=your_mongo_db_connection_string
 
-JWT_SECRET=your_jwt_secret
+-JWT_SECRET=your_jwt_secret
 
-PORT=5000
+-PORT=5000
 
 MONGO_URI: The connection string for your MongoDB database.
 
@@ -61,6 +61,7 @@ Run the Backend Server
 bash
 
 npm start
+
 The backend server will start on the specified port.
 
 ### Frontend Setup
@@ -92,9 +93,13 @@ bash
 vercel
 
 ### Usage
-Register a new user or log in with existing credentials.
-Create new tasks, update existing tasks, or delete tasks.
-Filter tasks based on their completion status and priority.
-Update user profile information and change the password.
+-Register a new user or log in with existing credentials.
+
+-Create new tasks, update existing tasks, or delete tasks.
+
+-Filter tasks based on their completion status and priority.
+
+-Update user profile information and change the password.
+
 Contributing
 ## Contributions are welcome! Please fork the repository and create a pull request with your changes.
