@@ -45,12 +45,19 @@ Create a .env file in the backend directory and add the following environment va
 
 
 MONGO_URI=your_mongo_db_connection_string
+
 JWT_SECRET=your_jwt_secret
+
 PORT=5000
+
 MONGO_URI: The connection string for your MongoDB database.
+
 JWT_SECRET: A secret key for signing JWT tokens. This key should be kept confidential.
+
 PORT: The port on which the backend server will run (default is 5000).
+
 Run the Backend Server
+
 bash
 
 npm start
