@@ -17,8 +17,7 @@ The Task Management Application is a web-based tool that allows users to manage 
 - **Frontend**: React, Bootstrap, Material-UI
 - **Backend**: Express.js, MongoDB, Mongoose
 - **Authentication**: JWT (JSON Web Tokens)
-- **Deployment**: Vercel, Netlify
-
+- **Deployment**: Vercel
 ## Setup and Installation
 
 ### Prerequisites
@@ -36,60 +35,60 @@ The Task Management Application is a web-based tool that allows users to manage 
    cd task-man-app
  ### Backend Setup
 
-2. **Navigate to the `backend` directory and install dependencies:**
+**2. Navigate to the `backend` directory and install dependencies:**
 
-```bash
+bash
 cd backend
 npm install
 Environment Variables
 Create a .env file in the backend directory and add the following environment variables:
 
 env
-Copy code
+
 MONGO_URI=your_mongo_db_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
 MONGO_URI: The connection string for your MongoDB database.
 JWT_SECRET: A secret key for signing JWT tokens. This key should be kept confidential.
 PORT: The port on which the backend server will run (default is 5000).
-Run the Backend Server
+3 .**Run the Backend Server**
 bash
-Copy code
+
 npm start
 The backend server will start on the specified port.
 
-Frontend Setup
+### Frontend Setup
 Navigate to the frontend directory and install dependencies:
 
 bash
-Copy code
+
 cd ../frontend
 npm install
 Run the Frontend Server
 bash
-Copy code
+
 npm start
 The frontend server will start on port 3000 by default.
 
- Deployment
+### Deployment
 Vercel (Frontend and Backend)
 Install Vercel CLI:
 bash
-Copy code
+
 npm i -g vercel
 Login to Vercel:
 bash
-Copy code
+
 vercel login
 Deploy:
 bash
-Copy code
+
 vercel
 
- Usage
+### Usage
 Register a new user or log in with existing credentials.
 Create new tasks, update existing tasks, or delete tasks.
 Filter tasks based on their completion status and priority.
 Update user profile information and change the password.
 Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+## Contributions are welcome! Please fork the repository and create a pull request with your changes.
