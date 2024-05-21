@@ -41,9 +41,8 @@ bash
 cd backend
 npm install
 Environment Variables
-Create a .env file in the backend directory and add the following environment variables:
+Create a .env file in the backend directory and add the following environment variables
 
-env
 
 MONGO_URI=your_mongo_db_connection_string
 JWT_SECRET=your_jwt_secret
