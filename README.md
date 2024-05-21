@@ -30,7 +30,7 @@ The Task Management Application is a web-based tool that allows users to manage 
 
 1. **Clone the repository:**
 
-   ```bash
+   bash
    git clone https://github.com/mustaq712/task-man.git
    cd task-man-app
  ### Backend Setup
@@ -44,8 +44,8 @@ Environment Variables
 Create a .env file in the backend directory and add the following environment variables
 
 
-MONGO_URI=your_mongo_db_connection_string
-JWT_SECRET=your_jwt_secret
+--MONGO_URI=your_mongo_db_connection_string
+--WT_SECRET=your_jwt_secret
 PORT=5000
 MONGO_URI: The connection string for your MongoDB database.
 JWT_SECRET: A secret key for signing JWT tokens. This key should be kept confidential.
