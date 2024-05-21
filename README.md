@@ -58,8 +58,8 @@ Copy code
 npm start
 The backend server will start on the specified port.
 
-### Frontend Setup
-3. Navigate to the frontend directory and install dependencies:
+Frontend Setup
+Navigate to the frontend directory and install dependencies:
 
 bash
 Copy code
@@ -71,7 +71,7 @@ Copy code
 npm start
 The frontend server will start on port 3000 by default.
 
-### Deployment
+ Deployment
 Vercel (Frontend and Backend)
 Install Vercel CLI:
 bash
@@ -86,7 +86,7 @@ bash
 Copy code
 vercel
 
-### Usage
+ Usage
 Register a new user or log in with existing credentials.
 Create new tasks, update existing tasks, or delete tasks.
 Filter tasks based on their completion status and priority.
